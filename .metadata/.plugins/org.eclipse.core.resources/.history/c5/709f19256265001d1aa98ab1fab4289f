@@ -1,0 +1,5 @@
+package com.jdbc.hibernate.crud;
+
+public class CreateStudent {
+
+}

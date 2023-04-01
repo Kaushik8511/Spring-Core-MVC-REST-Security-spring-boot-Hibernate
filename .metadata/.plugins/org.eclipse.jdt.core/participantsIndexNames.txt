@@ -1,0 +1,35 @@
+INDEX VERSION 1.131
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1514348238.index
+\spring-security-demo-02-basic-security\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1298309721.index
+\Customer tacker\src
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1456343413.index
+\spring-security-custom-bootstrap-login-form-and-logout\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1975634985.index
+\Customer tacker with auto logging (AOP)\src
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\603866623.index
+\spring-security-database-store-plain-text\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\804246907.index
+\spring-security-csrf\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4098858325.index
+\spring-crm-rest\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1600700352.index
+\spring-rest-demo\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\987406451.index
+\Customer tacker\src
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2947661045.index
+\spring-security-user-roles\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3981723556.index
+\spring-security-custom-login-form\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\565803614.index
+\spring-mvc-1\src
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1391885668.index
+\Customer tacker with auto logging (AOP)\src
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1937239136.index
+\spring-security-custom-bootstrap-login-form\src\main\java
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1864705279.index
+\Customer tacker management\src
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2987001037.index
+\Customer tacker management\src
+D:\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3862151852.index
+\spring-security-demo-01-base-app\src\main\java

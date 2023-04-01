@@ -1,0 +1,28 @@
+package com.temp;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class CreateStudent {
+	public static void main(String[] args) {
+		System.out.println("lets start");
+		
+		SessionFactory factory = null;
+		try {
+			factory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Student.class).buildSessionFactory();
+			Session session = factory.getCurrentSession();
+			session.beginTransaction();
+			
+			Student st = session.get(Student.class, 2);
+			System.out.println(st);
+			session.getTransaction().commit();
+		}
+		finally {
+			if(factory != null) factory.close();
+		}
+		
+		System.out.println("done!!");
+	}
+
+}

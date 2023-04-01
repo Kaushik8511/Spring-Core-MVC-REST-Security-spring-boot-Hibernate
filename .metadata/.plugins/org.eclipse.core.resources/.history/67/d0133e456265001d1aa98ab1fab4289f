@@ -1,0 +1,10 @@
+package com.jdbc.hibernate.crud;
+
+public class CreateStudent {
+	
+	private void psvm() {
+		System.out.println("hello");
+
+	}
+
+}

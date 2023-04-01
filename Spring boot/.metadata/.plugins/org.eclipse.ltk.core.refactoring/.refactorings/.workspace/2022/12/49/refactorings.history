@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;emp-dir&apos; to &apos;emp-dir-hibernative-with-service&apos;" description="Rename resource &apos;emp-dir&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/emp-dir" name="emp-dir-hibernative-with-service" stamp="1670065798196" updateReferences="true"/>
+</session>

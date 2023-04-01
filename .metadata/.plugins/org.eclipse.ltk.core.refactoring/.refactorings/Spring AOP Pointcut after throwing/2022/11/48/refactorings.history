@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;AfterReturningMain.java&apos; to &apos;Spring AOP Pointcut after throwing/src/com.aop.main&apos;&#x0D;&#x0A;- Original project: &apos;Spring AOP Pointcut after throwing&apos;&#x0D;&#x0A;- Destination element: &apos;Spring AOP Pointcut after throwing/src/com.aop.main&apos;&#x0D;&#x0A;- Original element: &apos;com.aop.main.AfterReturningMain.java&apos;" description="Copy compilation unit" destination="/src&lt;com.aop.main" element1="/src&lt;com.aop.main{AfterReturningMain.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1669050494024" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,46 @@
+package com.jdbc.hibernate.crud;
+
+
+import com.jdbc.hibernate.entity.Student;
+
+public class CreateStudent {
+
+	public static void main(String[] args) {
+		
+		System.out.println("started again");
+		
+		//create session factory
+//		SessionFactory sessionFactory = new Configuration()
+//										.configure("hibernate.cfg.xml")
+//										.addAnnotatedClass(Student.class)
+//										.buildSessionFactory();
+//		
+//		
+//		//get session from factory
+//		Session session = sessionFactory.getCurrentSession();
+//		
+//		try {
+//			//save student to database
+//			System.out.println("creating new student object");
+//			Student student = new Student("kaushik", "prajapati", "dummy@gmail.com");
+//			
+//			//begin transaction
+//			System.out.println("transaction began");
+//			session.beginTransaction();
+//			
+//			//save
+//			System.out.println("saving to the database");
+//			session.save(student);
+//			
+//			//commit the changes
+//			System.out.println("commit changes");
+//			session.getTransaction().commit();
+//			
+//			System.out.println("Done!!");
+//		}
+//		finally {
+//			sessionFactory.close();
+//		}
+	}
+
+}

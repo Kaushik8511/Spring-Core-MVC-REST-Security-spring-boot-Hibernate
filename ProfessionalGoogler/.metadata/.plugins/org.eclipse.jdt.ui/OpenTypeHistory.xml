@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=no-more-bugs/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.codehelper.nomorebugs.service{QuestionService.java[QuestionService" modifiers="513" timestamp="1670901639463"/>
+<typeInfo handle="=no-more-bugs/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.codehelper.nomorebugs.service{AnswerService.java[AnswerService" modifiers="513" timestamp="1670743211846"/>
+<typeInfo handle="=no-more-bugs/C:\/Program Files\/Java\/jre1.8.0_241\/lib\/rt.jar=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.lang(RuntimeException.class[RuntimeException" modifiers="33" timestamp="1668568074146"/>
+<typeInfo handle="=no-more-bugs/C:\/Users\/kaushik\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.7.6\/spring-data-jpa-2.7.6.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.7.6=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1670048446198"/>
+</typeInfoHistroy>

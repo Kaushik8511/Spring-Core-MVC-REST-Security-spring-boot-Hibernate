@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Define your beans here -->
+    
+    <bean id="happyFortuneService"
+    	class="com.spring_dep_inj.HappyFortuneService"
+    	scope="prototype">
+    	<property name="isFortunate" value="12"></property>
+    </bean>
+    
+    <!-- Constructor dependency injection -->
+    <bean id="coach"
+    	class="com.spring_dep_inj.DeveloperCoach">
+    	<constructor-arg ref="happyFortuneService" />
+    </bean>
+    
+    
+    <!-- setter dependency injection -->
+    <bean
+    	id="cricketCoach"
+    	class="com.spring_dep_inj.CricketCoach"
+    	init-method="myCustomInit"
+    	destroy-method="myCustomDestroy">
+    	<property name="fortuneService" ref="happyFortuneService"></property>
+    </bean>
+    
+</beans>
+
+
+
+
+

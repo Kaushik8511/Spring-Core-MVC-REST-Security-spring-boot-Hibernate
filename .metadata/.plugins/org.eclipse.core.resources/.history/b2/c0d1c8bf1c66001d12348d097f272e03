@@ -1,0 +1,132 @@
+package com.hibernate;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class CRUDEmployee {
+	
+	public static void saveEmployee(Employee e) {
+		
+		SessionFactory factory = null;
+		
+		try {
+			factory = new Configuration()
+									.configure("hibernate.cfg.xml")
+									.addAnnotatedClass(Employee.class)
+									.buildSessionFactory();
+			
+			Session session = factory.getCurrentSession();
+			
+			session.beginTransaction();
+			
+			session.save(e);
+			
+			session.getTransaction().commit();
+		}
+		finally {
+			if(factory != null) factory.close();
+		}
+	}
+	
+	public static void updateEmployee(Employee e) {
+		
+		SessionFactory factory = null;
+		
+		try {
+			factory = new Configuration()
+									.configure("hibernate.cfg.xml")
+									.addAnnotatedClass(Employee.class)
+									.buildSessionFactory();
+			
+			Session session = factory.getCurrentSession();
+			
+			session.beginTransaction();
+			
+			e.setCompany("TCS");
+			
+			session.getTransaction().commit();
+		}
+		finally {
+			if(factory != null) factory.close();
+		}
+	}
+
+	public static void deleteEmployee(Employee e) {
+		
+		SessionFactory factory = null;
+		
+		try {
+			factory = new Configuration()
+									.configure("hibernate.cfg.xml")
+									.addAnnotatedClass(Employee.class)
+									.buildSessionFactory();
+			
+			Session session = factory.getCurrentSession();
+			
+			session.beginTransaction();
+			
+			session.delete(e);
+			
+			session.getTransaction().commit();
+		}
+		finally {
+			if(factory != null) factory.close();
+		}
+	}
+
+	public static Employee getEmployee(int id) {
+		
+		SessionFactory factory = null;
+		Employee employee = null;
+		
+		try {
+			factory = new Configuration()
+									.configure("hibernate.cfg.xml")
+									.addAnnotatedClass(Employee.class)
+									.buildSessionFactory();
+			
+			Session session = factory.getCurrentSession();
+			
+			session.beginTransaction();
+			
+			employee = session.get(Employee.class, id);			
+			
+			session.getTransaction().commit();
+		}
+		finally {
+			if(factory != null) factory.close();
+		}
+		
+		return employee;
+	}
+	
+	public static List<Employee> getEmployeesByCompany(String company) {
+		
+		SessionFactory factory = null;
+		List<Employee> employees = null;
+		
+		try {
+			factory = new Configuration()
+									.configure("hibernate.cfg.xml")
+									.addAnnotatedClass(Employee.class)
+									.buildSessionFactory();
+			
+			Session session = factory.getCurrentSession();
+			
+			session.beginTransaction();
+			
+			employees = session.createQuery("from Employee where company = '" + company + "'").getResultList();
+			
+			session.getTransaction().commit();
+		}
+		finally {
+			if(factory != null) factory.close();
+		}
+		
+		return employees;
+	}
+
+}

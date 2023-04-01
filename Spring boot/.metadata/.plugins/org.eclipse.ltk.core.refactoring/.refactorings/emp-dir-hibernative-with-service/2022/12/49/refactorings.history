@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;com.mycompany.empdir.dao.EmployeeDAO.getEmplyees()&apos; to &apos;findAll&apos;&#x0D;&#x0A;- Original project: &apos;emp-dir&apos;&#x0D;&#x0A;- Original element: &apos;com.mycompany.empdir.dao.EmployeeDAO.getEmplyees()&apos;&#x0D;&#x0A;- Renamed element: &apos;com.mycompany.empdir.dao.EmployeeDAO.findAll()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;getEmplyees&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.mycompany.empdir.dao{EmployeeDAO.java[EmployeeDAO~getEmplyees" name="findAll" references="true" stamp="1670052351933" version="1.0"/>
+</session>
